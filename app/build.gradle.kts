@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "com.ashley.task"
+    namespace = "com.alex.task"
     compileSdk = 35
 
     defaultConfig {
-        applicationId = "com.ashley.task"
+        applicationId = "com.alex.task"
         minSdk = 24
         targetSdk = 35
         versionCode = 1

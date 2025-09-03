@@ -34,19 +34,21 @@
                 app:layout_constraintTop_toTopOf="parent"
                 tools:text="Criar layout da tela de login do app" />
 
+
             <ImageButton
+                android:id="@+id/buttonBack"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
-                android:id="@+id/buttonBack"
                 android:background="@android:color/transparent"
-                android:src="@drawable/baseline_arrow_back_24"
+                android:contentDescription="Anterior"
+                android:src="@drawable/ic_back"
                 app:layout_constraintBottom_toBottomOf="@+id/buttonEditar"
+                app:layout_constraintEnd_toStartOf="@+id/buttonDelete"
+                app:layout_constraintHorizontal_bias="1.0"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="@+id/buttonEditar"
-                app:layout_constraintEnd_toStartOf="@+id/buttonDelete"
-                android:contentDescription="Anterior"
-                app:tint="#009688" />
-
+                app:layout_constraintVertical_bias="0.0"
+                app:tint="@color/color_default" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/buttonDelete"
@@ -103,22 +105,24 @@
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.5"
                 app:layout_constraintStart_toEndOf="@+id/buttonEditar"
-                app:layout_constraintTop_toTopOf="@+id/buttonEditar"/>
+                app:layout_constraintTop_toTopOf="@+id/buttonEditar"
+                app:layout_constraintVertical_bias="0.0" />
 
             <ImageButton
+                android:id="@+id/buttonFoward"
                 android:layout_width="48dp"
                 android:layout_height="48dp"
                 android:layout_marginStart="112dp"
-                android:id="@+id/buttonFoward"
                 android:background="@android:color/transparent"
-                android:src="@drawable/baseline_arrow_forward_24"
+                android:contentDescription="Proximo"
+                android:src="@drawable/ic_forward"
                 app:layout_constraintBottom_toBottomOf="@+id/buttonEditar"
                 app:layout_constraintEnd_toEndOf="@+id/constraintLayout2"
-                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintHorizontal_bias="0.881"
                 app:layout_constraintStart_toEndOf="@+id/buttonDetails"
                 app:layout_constraintTop_toTopOf="@+id/buttonEditar"
-                android:contentDescription="Proximo"
-                app:tint="#009688"/>
+                app:layout_constraintVertical_bias="0.0"
+                app:tint="@color/color_default" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
 

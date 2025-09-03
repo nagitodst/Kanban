@@ -2,9 +2,9 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="color_default">#009688</color>
-    <color name="color_delete">#FF1500</color>
-    <color name="color_details">#1BB422</color>
-    <color name="color_status_todo">#FF5F2B</color>
-    <color name="color_status_done">#00AFFF</color>
+    <color name="color_default">#295976</color>
+    <color name="color_delete">#A92412</color>
+    <color name="color_details">#148519</color>
+    <color name="color_status_todo">#FF5500</color>
+    <color name="color_status_done">#00FF09</color>
 </resources>
