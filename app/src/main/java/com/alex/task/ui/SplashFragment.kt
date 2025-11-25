@@ -32,6 +32,7 @@ class SplashFragment : Fragment() {
 
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
+        auth = FirebaseAuth.getInstance()
         Handler(Looper.getMainLooper()).postDelayed({checkAuth()},3000)
     }
 
@@ -45,7 +46,7 @@ class SplashFragment : Fragment() {
                 findNavController().navigate(R.id.action_splashFragment_to_autentication)
             }
         }catch (e: Exception) {
-            Toast.makeText(requireContext(),e.message.toString(),Toast.LENGTH_SHORT)
+            Toast.makeText(requireContext(),e.message.toString(),Toast.LENGTH_SHORT).show()
             findNavController().navigate(R.id.action_splashFragment_to_autentication)
         }
     }
