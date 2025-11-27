@@ -15,6 +15,7 @@
     <string name="passord_text">Senha</string>
     <string name="email_empty">Preencha seu email!</string>
     <string name="email_text">E-mail</string>
+    <string name="error_generic">Ocorreu um erro! Tente novamente mais tarde.</string>
 
     <!--Login Fragment -->
     <string name="text_title_login_fragment">Login</string>
@@ -39,6 +40,8 @@
     <string name="text_button_recover_account_fragment">Enviar</string>
 
     <string name="description_empty_form_task_fragment">Preencha uma descrição!</string>
+    <string name="text_save_sucess_form_task_fragment">Tarefa salva com sucesso!</string>
+    <string name="description_empty_fome_task_fragment">Preencha uma descrição!</string>
     <string name="title_nova_tarefa_formtask_fragment">Nova tarefa</string>
     <string name="description_text">Descrição</string>
     <string name="hint_edit_description">Informe sua nova tarefa</string>
